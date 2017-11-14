@@ -11,8 +11,12 @@
     <?php include 'assets/parts/header.php'; ?>
 
     <aside id="logo-bottom">
-        <img src="assets/images/logo_acm.png" class="logos" />
-        <img src="assets/images/logo_acm-women.png" class="logos" />
+        <a href="http://www.upesacm.org" target="_blank">
+            <img src="assets/images/logo_acm.png" class="logos" />
+        </a>
+        <a href="http://www.upesacmwomen.org" target="_blank">
+            <img src="assets/images/logo_acm-women.png" class="logos" />
+        </a>
     </aside>
 
     <section id="logo">
