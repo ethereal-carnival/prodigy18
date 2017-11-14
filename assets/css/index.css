@@ -1,0 +1,12 @@
+#logo-bottom {
+    position: absolute;
+    z-index: 198;
+    height: 15vh;
+    right: 2vw;
+    bottom: 2vh;
+}
+
+#logo {
+    background-color: aqua;
+    margin-top: 9vh;
+}
