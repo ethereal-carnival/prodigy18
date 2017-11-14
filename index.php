@@ -1,34 +1,39 @@
 <html lang="en">
-    <head>
-        <title>Prodigy 18 - Coming soon</title>
 
-        <link href="assets/css/common.css" rel="stylesheet" />
-        <link href="assets/css/index.css" rel="stylesheet" />
-    </head>
-    <body>
-        <?php include 'assets/parts/header.php'; ?>
+<head>
+    <title>Prodigy 18 - Coming soon</title>
 
-        <aside id="logo-bottom">
-            <img src="assets/images/logo_acm.png" class="logos"/>
-            <img src="assets/images/logo_acm-women.png" class="logos"/>
-        </aside>
+    <link href="assets/css/common.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+</head>
 
-        <section id="logo">
-            <article>
-                <img src="assets/images/logo.gif" alt="Logo goes here" />
-            </article>
-        </section>
+<body>
+    <?php include 'assets/parts/header.php'; ?>
 
-        <section id="about">
-        </section>
+    <aside id="logo-bottom">
+        <img src="assets/images/logo_acm.png" class="logos" />
+        <img src="assets/images/logo_acm-women.png" class="logos" />
+    </aside>
 
-        <section id="previous">
-        </section>
+    <section id="logo">
+        <article>
+            <center>
+                <img src="assets/images/logo_prodigy.gif" alt="Logo goes here" />
+            </center>
+        </article>
+    </section>
 
-        <section id="footer">
-        </section>
+    <section id="about">
+    </section>
 
-        <footer>
-        </footer>
-    </body>
+    <section id="previous">
+    </section>
+
+    <section id="footer">
+    </section>
+
+    <footer>
+    </footer>
+</body>
+
 </html>
