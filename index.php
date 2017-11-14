@@ -8,8 +8,9 @@
     <body>
         <?php include 'assets/parts/header.php'; ?>
 
-        <aside>
-            <img src="assets/images/Logos.png" id="logo-bottom"/>
+        <aside id="logo-bottom">
+            <img src="assets/images/logo_acm.png" class="logos"/>
+            <img src="assets/images/logo_acm-women.png" class="logos"/>
         </aside>
 
         <section id="logo">
