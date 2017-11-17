@@ -1,8 +1,25 @@
+body {
+    background-image: url(../images/logo_prodigy.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #logo-bottom {
     position: absolute;
+    position: fixed;
     z-index: 198;
     right: 2vw;
     bottom: 2vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 .logos {
@@ -10,5 +27,22 @@
 }
 
 #logo {
-    margin-top: 9vh;
+/*    /margin-top: 9vh;*/
+}
+
+#logo-img {
+    width: 100vw;
+}
+
+#about {
+    margin: 100vh 0 0 0;
+    padding: 10vh 20vw;
+    //background-color: #5296a8;
+    background-color: #17404c;
+    box-shadow: 0px 0px 2vh 2px #17404c;
+    color: aliceblue;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
