@@ -3,8 +3,11 @@
 <head>
     <title>Prodigy 18 - Coming soon</title>
 
-    <link href="assets/css/common.css" rel="stylesheet" />
+    <link href="assets/css/header.css" rel="stylesheet" />
     <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="assets/css/cover.css" rel="stylesheet" />
+
+    <script src="assets/js/main.js" type="text/javascript"></script>
 </head>
 
 <body>

@@ -1,5 +1,11 @@
 <header>
     <div id="brand">00:00:00:00</div>
+    <div id="curtains">
+        <div id="left">
+        </div>
+        <div id="right">
+        </div>
+    </div>
     <nav>
         <ul>
             <li><a>ABOUT</a></li>
