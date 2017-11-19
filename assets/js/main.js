@@ -13,7 +13,7 @@ window.onscroll = function () {
         draw_together();
         document.getElementById("brand").style.opacity = 1;
         document.getElementById("wrapper").style.height = "0";
-        document.getElementById("cover").style.background = "rgba(0,0,0,0.3)";
+        document.getElementById("cover").style.background = "rgba(255,255,255,0.5)";
 
     } else {
         draw_apart();

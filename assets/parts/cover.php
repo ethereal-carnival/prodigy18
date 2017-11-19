@@ -8,6 +8,6 @@
         </center>
     </div>
     <center>
-        <img src="assets/images/logo_prodigy.jpg" id="logo-prodigy" />
+        <img src="assets/images/logo_prodigy.png" id="logo-prodigy" />
     </center>
 </div>
