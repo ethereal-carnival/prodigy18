@@ -1,6 +1,6 @@
 <header>
     <div id="brand">00:00:00:00</div>
-    <div id="curtains"vrevrwv>
+    <div id="curtains">
         <div id="left">
         </div>
         <div id="right">

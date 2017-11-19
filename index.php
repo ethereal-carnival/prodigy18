@@ -8,7 +8,7 @@
     <link href="assets/css/cover.css" rel="stylesheet" />
 
     <script src="assets/js/main.js" type="text/javascript"></script>
-</head>vw hkjbnef
+</head>
 
 <body>
 
