@@ -26,12 +26,14 @@ header {
     //box-shadow: 0px 0px 2vh 2px #18436e;
     text-align: left;
     top: 0;
+    color: aliceblue;
 }
 
 #brand {
     float: left;
     font-size: 5vh;
     padding: 1vh;
+    visibility: hidden;
 }
 
 nav {
@@ -49,13 +51,26 @@ nav ul li a {
 }
 
 nav ul li {
-    border-right: black 1px solid;
+    border-right: aliceblue 1px solid;
     padding: 0 2vh;
 }
 
 .last {
     border: none;
     padding-right: 0;
+    animation: color 0.6s ease infinite;
+}
+
+@keyframes color {
+    0% {
+        color: aliceblue;
+    }
+    50% {
+        color: #dc143c;
+    }
+    100% {
+        color: aliceblue;
+    }
 }
 
 li {

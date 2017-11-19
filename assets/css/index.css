@@ -1,9 +1,33 @@
 body {
-    background-image: url(../images/logo_prodigy.jpg);
+    //background-image: url(../images/logo_prodigy.jpg);
+    background-image: url(../images/bg2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cover {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0));
+    margin: 0;
+}
+
+#logo-prodigy {
+    margin-top: 12vh;
+    height: 50vh;
+}
+
+#countdown {
+    background: rgba(0,0,0,0.3);
+    margin-top: 5vh;
+    font-size: 7vh;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3vh 2vw;
+    border-radius: 20px;
+    border: 2px solid #2d5068;
 }
 
 #logo-bottom {
@@ -23,11 +47,11 @@ a:visited {
 }
 
 .logos {
-    height: 100px;
+    height: 10vh;
 }
 
 #logo {
-/*    /margin-top: 9vh;*/
+    /*    /margin-top: 9vh;*/
 }
 
 #logo-img {
@@ -35,11 +59,10 @@ a:visited {
 }
 
 #about {
-    margin: 100vh 0 0 0;
-    padding: 10vh 20vw;
-    //background-color: #5296a8;
-    background-color: #17404c;
-    box-shadow: 0px 0px 2vh 2px #17404c;
+    margin: 0 0 0 0;
+    padding: 10vh 20vw; //background-color: #5296a8;
+    background-color: #2d5068;
+    box-shadow: 0px 0px 2vh 2px #2d5068;
     color: aliceblue;
 }
 
