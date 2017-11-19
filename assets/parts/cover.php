@@ -4,6 +4,7 @@
             <h1 ID="title">PRODIGY '18</h1>
             <div id="countdown">
                 00 : 00 : 00
+            <div id="countdowntimer"><span id="future_date"></span></div>
             </div>
         </center>
     </div>

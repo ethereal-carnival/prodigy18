@@ -21,14 +21,14 @@
     //include 'assets/parts/';
     ?>
 
-    <section id="previous">
-    </section>
+        <section id="previous">
+        </section>
 
-    <section id="footer">
-    </section>
+        <section id="footer">
+        </section>
 
-    <footer>
-    </footer>
+        <footer>
+        </footer>
 </body>
 
 </html>
