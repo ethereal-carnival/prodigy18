@@ -6,6 +6,7 @@
     <link href="assets/css/header.css" rel="stylesheet" />
     <link href="assets/css/index.css" rel="stylesheet" />
     <link href="assets/css/cover.css" rel="stylesheet" />
+    <link href="assets/css/gallery.css" rel="stylesheet" />
 
     <script src="assets/js/main.js" type="text/javascript"></script>
 </head>
@@ -17,12 +18,9 @@
     include 'assets/parts/cover.php';
     include 'assets/parts/logo_bottom.php';
     include 'assets/parts/about.php';
-    //include 'assets/parts/';
+    include 'assets/parts/gallery.php';
     //include 'assets/parts/';
     ?>
-
-        <section id="previous">
-        </section>
 
         <section id="footer">
         </section>

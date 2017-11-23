@@ -1,0 +1,44 @@
+#gallery {
+    background-color: #fff;
+}
+
+.image {
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 1081px) {
+    #gallery {
+        padding: 15vh 10vw;
+        margin: 0;
+        text-align: center;
+    }
+    .image {
+        width: 19.5vw;
+        height: 15vw;
+        margin: 0;
+        padding: 0;
+    }
+    #gallery > h1 {
+        margin-bottom: 5vh;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #gallery {
+        padding: 10vh 0;
+        margin: 0;
+        text-align: center;
+    }
+    .image {
+        width: 90vw;
+        height: 75vw;
+        margin: 0;
+        padding: 0;
+        margin-top: 1vh;
+    }
+    #gallery > h1 {
+        margin-bottom: 5vh;
+        font-size: 3vh;
+    }
+}

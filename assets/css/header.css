@@ -20,14 +20,13 @@ header {
     height: 7vh;
     padding: 1vh 10vw;
     position: absolute;
-    position: fixed; //box-shadow: 0px 0px 2vh 2px #18436e;
+    position: fixed;
     text-align: left;
     top: 0;
     color: aliceblue;
 }
 
 #brand {
-    float: left;
     font-size: 5vh;
     padding: 0.5vh;
     opacity: 0;
@@ -64,8 +63,7 @@ header {
     margin: 0; //background-color: #2d5068;
     background-color: #005469;
     background-color: #00485a;
-    transition: all 0.4s linear;
-    //box-shadow: 0px 0px 2vh 2px #2d5068;
+    transition: all 0.4s linear; //box-shadow: 0px 0px 2vh 2px #2d5068;
 }
 
 nav {
@@ -112,4 +110,21 @@ li {
 
 .clear {
     clear: both;
+}
+
+@media only screen and (min-width: 1081px) {
+    #brand {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #brand {
+        float: left;
+        text-align: center;
+        width: 80vw;
+    }
+    nav {
+        display: none;
+    }
 }
