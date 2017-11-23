@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about" cname="about">
     <article>
         <h1>About Prodigy</h1>
     </article>

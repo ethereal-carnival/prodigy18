@@ -1,5 +1,5 @@
 <section id="gallery">
-    <h1>A GLIMPSE OF PRODIGY '17</h1>
+    <h1>A GLIMPSE BACK AT PRODIGY '17</h1>
     <img src="/assets/images/prodigy17_1.jpg" class="image" />
     <img src="/assets/images/prodigy17_2.jpg" class="image" />
     <img src="/assets/images/prodigy17_7.jpg" class="image" />

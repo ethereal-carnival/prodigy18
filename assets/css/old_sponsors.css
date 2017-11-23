@@ -1,0 +1,15 @@
+#old_sponsors {
+    background-color: #00485a;
+}
+
+@media only screen and (min-width: 1081px) {
+#old_sponsors {
+        padding: 10vh 10vw;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #old_sponsors {
+        padding: 10vh 0;
+    }
+}

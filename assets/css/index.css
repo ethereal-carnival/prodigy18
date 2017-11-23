@@ -15,6 +15,7 @@ body {
     z-index: 198;
     right: 2vw;
     bottom: 2vh;
+    transition: all 0.6s linear;
 }
 
 a {
@@ -41,8 +42,8 @@ a:visited {
     margin: 0 0 0 0;
     font-size: 2vh;
     background-color: #00485a;
+    color: #eaedef;
     box-shadow: 0px 0px 2vh 2px #2d5068;
-    color: aliceblue;
 }
 
 *::-webkit-scrollbar {
@@ -63,8 +64,5 @@ a:visited {
     #about {
         padding: 5vh 10vw;
         text-align: justify;
-    }
-    .logos {
-        display: none;
     }
 }
