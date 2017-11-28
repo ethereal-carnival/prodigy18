@@ -8,8 +8,10 @@
     <link href="assets/css/cover.css" rel="stylesheet" />
     <link href="assets/css/gallery.css" rel="stylesheet" />
     <link href="assets/css/old_sponsors.css" rel="stylesheet" />
+    <link href="assets/css/footer.css" rel="stylesheet" />
 
     <script src="assets/js/main.js" type="text/javascript"></script>
+    <script src="assets/js/countdown.js" type="text/javascript"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -23,13 +25,8 @@
     include 'assets/parts/about.php';
     include 'assets/parts/gallery.php';
     include 'assets/parts/old_sponsors.php';
+    include 'assets/parts/footer.php';
     ?>
-
-        <section id="footer">
-        </section>
-
-        <footer>
-        </footer>
 </body>
 
 </html>

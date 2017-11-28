@@ -1,4 +1,4 @@
-<header>
+<header id="header">
     <div id="brand">00:00:00:00</div>
     <div id="curtains">
         <div id="left">

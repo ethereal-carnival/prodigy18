@@ -1,15 +1,54 @@
 #old_sponsors {
     background-color: #00485a;
+    background-color: #eaedef;
+    //box-shadow: 0px 0px 2vh 2px #eaedef;
+}
+
+#prev {
+    font-size: 3vh;
+    color: #fff;
+    color: #00485a;
+    margin-bottom: 5vh;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 1081px) {
-#old_sponsors {
-        padding: 10vh 10vw;
+    #old_sponsors {
+        padding: 5vh 10vw 10vh 10vw;
+    }
+    .img {
+        display: inline-block;
+        height: 17vh;
+        //background: #fff;
+        align-content: center;
+        border-radius: 10px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    #redwolf {
+        background: none;
+    }
+    #payu {
+        background: none;
     }
 }
 
 @media only screen and (max-width: 1080px) {
     #old_sponsors {
-        padding: 10vh 0;
+        padding: 5vh 0;
+    }
+    .img {
+        display: inline-block;
+        width: 90vw;
+        //background: #fff;
+        align-content: center;
+        border-radius: 10px;
+    }
+    #redwolf {
+        background: none;
+    }
+    #payu {
+        background: none;
     }
 }

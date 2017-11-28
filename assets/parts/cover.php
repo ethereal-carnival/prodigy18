@@ -3,8 +3,22 @@
         <center>
             <h1 ID="title">PRODIGY '18</h1>
             <div id="countdown">
-                00 : 00 : 00
-            <div id="countdowntimer"><span id="future_date"></span></div>
+                <div class="timer-wrapper">
+                    <span id="timer-days" class="timer">00</span>
+                    <span class="sub">days</span>
+                </div>
+                <div class="timer-wrapper">
+                    <span id="timer-hours" class="timer">00</span>
+                    <span class="sub">hours</span>
+                </div>
+                <div class="timer-wrapper">
+                    <span id="timer-minutes" class="timer">00</span>
+                    <span class="sub">minutes</span>
+                </div>
+                <div class="timer-wrapper">
+                    <span id="timer-seconds" class="timer">00</span>
+                    <span class="sub">seconds</span>
+                </div>
             </div>
         </center>
     </div>
