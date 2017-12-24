@@ -8,7 +8,8 @@
     </div>
     <nav>
         <ul>
-            <li class="last"><a>SPONSOR US</a></li>
+            <li class="last"><a href="mailto://info.upesacm@gmail.com" id="sponsor" onclick="document.getElementById('hidden').click();">SPONSOR US</a></li>
+            <a href="https://www.facebook.com/upesacm" style="display: none" target="_blank" id="hidden"></a>
         </ul>
     </nav>
     <div class="clear"></div>

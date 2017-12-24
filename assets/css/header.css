@@ -103,6 +103,13 @@ nav ul li {
 .last {
     border: none;
     padding-right: 0;
+}
+
+#sponsor {
+    animation: color 0.6s ease infinite;
+}
+
+#sponsor:visited {
     animation: color 0.6s ease infinite;
 }
 
